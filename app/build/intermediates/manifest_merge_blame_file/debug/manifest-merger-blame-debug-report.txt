@@ -1,0 +1,109 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.vtucompanion"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="16"
+8-->D:\AndroidStudioProjects\project1\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="30" />
+9-->D:\AndroidStudioProjects\project1\app\src\main\AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.CALL_PHONE" />
+11-->D:\AndroidStudioProjects\project1\app\src\main\AndroidManifest.xml:5:5-69
+11-->D:\AndroidStudioProjects\project1\app\src\main\AndroidManifest.xml:5:22-66
+12    <uses-permission android:name="android.permission.INTERNET" />
+12-->D:\AndroidStudioProjects\project1\app\src\main\AndroidManifest.xml:6:5-67
+12-->D:\AndroidStudioProjects\project1\app\src\main\AndroidManifest.xml:6:22-64
+13    <uses-permission android:name="android.permission.SET_WALLPAPER" />
+13-->D:\AndroidStudioProjects\project1\app\src\main\AndroidManifest.xml:7:5-72
+13-->D:\AndroidStudioProjects\project1\app\src\main\AndroidManifest.xml:7:22-69
+14    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+14-->D:\AndroidStudioProjects\project1\app\src\main\AndroidManifest.xml:8:5-80
+14-->D:\AndroidStudioProjects\project1\app\src\main\AndroidManifest.xml:8:22-77
+15
+16    <application
+16-->D:\AndroidStudioProjects\project1\app\src\main\AndroidManifest.xml:10:5-41:19
+17        android:allowBackup="true"
+17-->D:\AndroidStudioProjects\project1\app\src\main\AndroidManifest.xml:11:9-35
+18        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+18-->[androidx.core:core:1.5.0] C:\Users\acer\.gradle\caches\transforms-2\files-2.1\cc5e9dcdc56dc39042f72c501235e83f\core-1.5.0\AndroidManifest.xml:24:18-86
+19        android:debuggable="true"
+20        android:icon="@mipmap/ic_launcher"
+20-->D:\AndroidStudioProjects\project1\app\src\main\AndroidManifest.xml:12:9-43
+21        android:label="@string/app_name"
+21-->D:\AndroidStudioProjects\project1\app\src\main\AndroidManifest.xml:13:9-41
+22        android:roundIcon="@mipmap/ic_launcher_round"
+22-->D:\AndroidStudioProjects\project1\app\src\main\AndroidManifest.xml:14:9-54
+23        android:supportsRtl="true"
+23-->D:\AndroidStudioProjects\project1\app\src\main\AndroidManifest.xml:15:9-35
+24        android:testOnly="true"
+25        android:theme="@style/Theme.VTUCompanion" >
+25-->D:\AndroidStudioProjects\project1\app\src\main\AndroidManifest.xml:16:9-50
+26        <activity android:name="com.example.vtucompanion.SplashScreen" >
+26-->D:\AndroidStudioProjects\project1\app\src\main\AndroidManifest.xml:17:9-23:20
+26-->D:\AndroidStudioProjects\project1\app\src\main\AndroidManifest.xml:17:19-47
+27            <intent-filter>
+27-->D:\AndroidStudioProjects\project1\app\src\main\AndroidManifest.xml:18:13-22:29
+28                <action android:name="android.intent.action.MAIN" />
+28-->D:\AndroidStudioProjects\project1\app\src\main\AndroidManifest.xml:19:17-69
+28-->D:\AndroidStudioProjects\project1\app\src\main\AndroidManifest.xml:19:25-66
+29
+30                <category android:name="android.intent.category.LAUNCHER" />
+30-->D:\AndroidStudioProjects\project1\app\src\main\AndroidManifest.xml:21:17-77
+30-->D:\AndroidStudioProjects\project1\app\src\main\AndroidManifest.xml:21:27-74
+31            </intent-filter>
+32        </activity>
+33        <activity android:name="com.example.vtucompanion.feedBackSystem" />
+33-->D:\AndroidStudioProjects\project1\app\src\main\AndroidManifest.xml:24:9-52
+33-->D:\AndroidStudioProjects\project1\app\src\main\AndroidManifest.xml:24:19-49
+34        <activity android:name="com.example.vtucompanion.Profile" />
+34-->D:\AndroidStudioProjects\project1\app\src\main\AndroidManifest.xml:25:9-45
+34-->D:\AndroidStudioProjects\project1\app\src\main\AndroidManifest.xml:25:19-42
+35        <activity android:name="com.example.vtucompanion.insideStudyMaterials" />
+35-->D:\AndroidStudioProjects\project1\app\src\main\AndroidManifest.xml:26:9-58
+35-->D:\AndroidStudioProjects\project1\app\src\main\AndroidManifest.xml:26:19-55
+36        <activity android:name="com.example.vtucompanion.sgpaprog" />
+36-->D:\AndroidStudioProjects\project1\app\src\main\AndroidManifest.xml:27:9-46
+36-->D:\AndroidStudioProjects\project1\app\src\main\AndroidManifest.xml:27:19-43
+37        <activity android:name="com.example.vtucompanion.TodoLists" />
+37-->D:\AndroidStudioProjects\project1\app\src\main\AndroidManifest.xml:28:9-47
+37-->D:\AndroidStudioProjects\project1\app\src\main\AndroidManifest.xml:28:19-44
+38        <activity android:name="com.example.vtucompanion.inside2vturesults" />
+38-->D:\AndroidStudioProjects\project1\app\src\main\AndroidManifest.xml:29:9-55
+38-->D:\AndroidStudioProjects\project1\app\src\main\AndroidManifest.xml:29:19-52
+39        <activity android:name="com.example.vtucompanion.cgpaprog" />
+39-->D:\AndroidStudioProjects\project1\app\src\main\AndroidManifest.xml:30:9-46
+39-->D:\AndroidStudioProjects\project1\app\src\main\AndroidManifest.xml:30:19-43
+40        <activity android:name="com.example.vtucompanion.inside1csgpa" />
+40-->D:\AndroidStudioProjects\project1\app\src\main\AndroidManifest.xml:31:9-50
+40-->D:\AndroidStudioProjects\project1\app\src\main\AndroidManifest.xml:31:19-47
+41        <activity android:name="com.example.vtucompanion.Insider" />
+41-->D:\AndroidStudioProjects\project1\app\src\main\AndroidManifest.xml:32:9-45
+41-->D:\AndroidStudioProjects\project1\app\src\main\AndroidManifest.xml:32:19-42
+42        <activity android:name="com.example.vtucompanion.Registration" />
+42-->D:\AndroidStudioProjects\project1\app\src\main\AndroidManifest.xml:33:9-50
+42-->D:\AndroidStudioProjects\project1\app\src\main\AndroidManifest.xml:33:19-47
+43        <activity android:name="com.example.vtucompanion.MainActivity" />
+43-->D:\AndroidStudioProjects\project1\app\src\main\AndroidManifest.xml:34:9-49
+43-->D:\AndroidStudioProjects\project1\app\src\main\AndroidManifest.xml:34:19-47
+44
+45        <meta-data
+45-->D:\AndroidStudioProjects\project1\app\src\main\AndroidManifest.xml:38:9-40:57
+46            android:name="preloaded_fonts"
+46-->D:\AndroidStudioProjects\project1\app\src\main\AndroidManifest.xml:39:13-43
+47            android:resource="@array/preloaded_fonts" />
+47-->D:\AndroidStudioProjects\project1\app\src\main\AndroidManifest.xml:40:13-54
+48
+49        <provider
+49-->[com.squareup.picasso:picasso:2.71828] C:\Users\acer\.gradle\caches\transforms-2\files-2.1\5ec8ef568aef29538e78c2fdcb41df0e\picasso-2.71828\AndroidManifest.xml:8:9-11:40
+50            android:name="com.squareup.picasso.PicassoProvider"
+50-->[com.squareup.picasso:picasso:2.71828] C:\Users\acer\.gradle\caches\transforms-2\files-2.1\5ec8ef568aef29538e78c2fdcb41df0e\picasso-2.71828\AndroidManifest.xml:9:13-64
+51            android:authorities="com.example.vtucompanion.com.squareup.picasso"
+51-->[com.squareup.picasso:picasso:2.71828] C:\Users\acer\.gradle\caches\transforms-2\files-2.1\5ec8ef568aef29538e78c2fdcb41df0e\picasso-2.71828\AndroidManifest.xml:10:13-72
+52            android:exported="false" />
+52-->[com.squareup.picasso:picasso:2.71828] C:\Users\acer\.gradle\caches\transforms-2\files-2.1\5ec8ef568aef29538e78c2fdcb41df0e\picasso-2.71828\AndroidManifest.xml:11:13-37
+53    </application>
+54
+55</manifest>
